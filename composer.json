@@ -1,0 +1,26 @@
+{
+  "name": "golles/yii2-widgets",
+  "description": "My Yii2 widgets that I want to share with the world",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii 2", "widgets", "widget"],
+  "homepage": "http://golles.nl",
+  "authors": [
+    {
+      "name": "Sander Gols",
+      "email": "github@golles.nl",
+      "homepage": "http://www.golles.nl"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/golles/yii2-widgets/issues?q=is%3Aopen",
+    "source": "https://github.com/golles/yii2-widgets"
+  },
+  "require": {
+      "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "golles\\yii2widgets\\": ""
+    }
+  }
+}
